@@ -1,0 +1,152 @@
+:root {
+  --title-text-color: #212121;
+  --primary-text-color: #757575;
+  --title-text-color-secondary: #ffffff;
+  --accent-text-color: #2196f3;
+}
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.7;
+}
+h1 {
+  display: none;
+}
+
+ul {
+  list-style: none;
+}
+/*logo*/
+.logo {
+  color: var(--title-text-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-web {
+  color: var(--accent-text-color);
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accent-text-color);
+}
+/*site nav*/
+.site-nav .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-text-color);
+}
+.site-nav .link.current {
+  color: var(--accent-text-color);
+}
+/*contacts nav*/
+.contacts-nav .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+  color: var(--accent-text-color);
+}
+/*hero*/
+.hero-title {
+  color: var(--title-text-color-secondary);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.order-button {
+  color: var(--title-text-color-secondary);
+  background-color: var(--accent-text-color);
+}
+
+/*main text*/
+
+.feature-list .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+.team-list .title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
+.team-list .profession {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/*portfolio main*/
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: inherit;
+}
+.doing-list .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.doing-list .text {
+  font-size: 16px;
+  line-height: 1.9;
+}
+.button-list {
+  color: var(--title-text-color);
+}
+.button-list .current {
+  background-color: var(--accent-text-color);
+  color: var(--title-text-color-secondary);
+}
+/*footer*/
+
+.footer .logo {
+  color: var(--accent-text-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-white {
+  color: var(--title-text-color-secondary);
+}
+.address {
+  color: var(--title-text-color-secondary);
+}
+.footer .link {
+  color: rgba(255, 255, 255, 0.6);
+}
