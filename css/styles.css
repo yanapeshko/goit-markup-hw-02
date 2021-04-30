@@ -147,6 +147,9 @@ footer {
   font-size: 26px;
   line-height: 1.19;
 }
+address {
+  font-style: normal;
+}
 .logo-white {
   color: var(--title-text-color-secondary);
 }
